@@ -38,4 +38,5 @@ ticksObservable.subscribe(function(evenTicks) {
 
 ticksObservable.subscribe(function(evenTicks) {
     console.log('Subcriber 2 - evenTicks: ' + evenTicks + ' so far');
-})
+});
+
