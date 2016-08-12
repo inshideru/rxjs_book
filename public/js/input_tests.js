@@ -41,6 +41,11 @@ function mask(inputName, mask, evt) {
     } catch (e) { }
 }
 
+/**
+ * Exemplo de uso
+ * <input type="text" id="input" name="input" onkeyup="javascript:mask('input', '000,00', event)">
+ */
+
 function cleanInput(inputName, mask, event) {
     var inputField = document.getElementById(inputName);
     var value = inputField.value;
