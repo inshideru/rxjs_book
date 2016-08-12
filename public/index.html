@@ -7,9 +7,8 @@
     <style type="text/css">
         html,
         body {
-            margin: 0;
+            margin: 10;
             padding: 0;
-            height: 100%;
         }
         
         #main {
@@ -22,11 +21,15 @@
     
     <div id="main">
         <pre id="formated"></pre>
+        <input type="text" id="input" name="input" onkeyup="javascript:mask('input', '000,00', event)">
+        <br>
+        <br>
+        <input type="text" id="value" name="value" onkeyup="javascript:cleanInput('value', '000,00', event)">
     </div>
     
     <script src="js/rx.all.min.js"></script>
     <script src="js/rx.dom.min.js"></script>
-<script src="js/ch3/spaceship/replay_subject.js"></script>
+<script src="js/input_tests.js"></script>
 </body>
 
 </html>
